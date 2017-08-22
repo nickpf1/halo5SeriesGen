@@ -17,7 +17,7 @@ $( document ).ready(function() {
         //empty div that holds all the maps
         $('#maps').empty();
 
-        for(i = 0; i < numOfSeries; i++)
+        for(var i = 0; i < numOfSeries; i++)
         {
             var id = (i+1);
 
